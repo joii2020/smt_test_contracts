@@ -1,0 +1,3 @@
+[submodule "deps/sparse-merkle-tree"]
+	path = deps/sparse-merkle-tree
+	url = https://github.com/joii2020/sparse-merkle-tree.git
