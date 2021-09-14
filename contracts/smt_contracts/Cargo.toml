@@ -7,5 +7,5 @@ edition = "2018"
 
 [dependencies]
 ckb-std = "0.7.1"
-sparse-merkle-tree = { path = "../../deps/sparse-merkle-tree", default-features = false, features = ["blake2b"] }
+sparse-merkle-tree = { path = "../../deps/sparse-merkle-tree", default-features = false }
 hex = { version = "0.4.3", default-features = false, features = ["alloc"] }
