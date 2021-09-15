@@ -14,3 +14,13 @@ Run tests:
 ``` sh
 capsule test
 ```
+
+# About testing ffi loss
+The cycles_c cycles_rust and cycles_lib used to test loss.
+You can get the loss value of ffi by commenting, Get the result by running run-test-cycles.sh:
+* Do not comments any code
+* Comment out the verify part
+* Comment out SMT parts
+Now, you can get the cycles of verify and smt by calculation.
+
+![](doc/ffi_loss.png)
