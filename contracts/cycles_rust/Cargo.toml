@@ -1,5 +1,5 @@
 [package]
-name = "smt_contracts"
+name = "cycles_rust"
 version = "0.1.0"
 edition = "2018"
 
@@ -7,4 +7,4 @@ edition = "2018"
 
 [dependencies]
 ckb-std = "0.7.1"
-sparse-merkle-tree = { path = "../../deps/sparse-merkle-tree", default-features = false }
+cycles-lib = { path = "../cycles_lib/" }

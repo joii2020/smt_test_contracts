@@ -13,3 +13,11 @@ deployment = "deployment.toml"
 [[contracts]]
 name = "smt_contracts"
 template_type = "Rust"
+
+[[contracts]]
+name = "cycles_rust"
+template_type = "Rust"
+
+[[contracts]]
+name = "cycles_c"
+template_type = "Rust"

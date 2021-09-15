@@ -7,7 +7,8 @@ pub enum Error {
     ItemMissing,
     LengthNotEnough,
     Encoding,
-    VerifyError,
+    // Add customized errors here...
+    MyError,
 }
 
 impl From<SysError> for Error {
